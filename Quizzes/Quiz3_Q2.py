@@ -14,4 +14,14 @@ with open("sports.txt", 'w') as output:
 
 # Write Python code to read the sports.txt file and print out each line of the file to the terminal. 
 
+#define function with parameter filename
+def get_file_lines(filename):
+    # create variable to open & read file
+    file_lines = open(filename, "r").read()
+    # return the variable
+    return file_lines
 
+#print the function with .txt file as the parameter
+print(get_file_lines("sports.txt"))
+# print a space to give space
+print("\n")
