@@ -12,7 +12,7 @@ with open("sports.txt", 'w') as output:
     for row in sports:
         output.write(str(row) + '\n')
 
-# Write Python code to read the sports.txt file and print out each line of the file to the terminal. 
+#2. Write Python code to read the sports.txt file and print out each line of the file to the terminal. 
 
 #define function with parameter filename
 def get_file_lines(filename):
