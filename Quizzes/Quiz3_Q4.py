@@ -11,7 +11,7 @@
 
 # print(c([4,5,2,-3]))
 
-#define function sum() with paramter num_list
+#define function sum() with parameter num_list
 def sum(num_list):
     # create variable result have a starting value of 0
     result = 0
